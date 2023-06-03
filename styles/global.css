@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .btn-blue {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(to right, #f127e6, #f5af19);
+  }
+  
